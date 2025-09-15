@@ -37,4 +37,5 @@ def init_vertex_ai(project: Optional[str] = None, location: Optional[str] = None
         "location": location,
         "model": GCP_VERTEX_MODEL,
         "using_service_account": bool(credentials is not None),
+        "aiplatform_version": getattr(aiplatform, "__version__", "unknown"),
     }
