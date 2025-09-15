@@ -1,0 +1,7 @@
+/backend/.venv
+/backend/__pycache__
+/backend/instance
+/backend/google-service.json
+/backend/src/__pycache__
+/backend/src/utils/__pycache__
+/backend/.env
